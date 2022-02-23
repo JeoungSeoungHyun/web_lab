@@ -46,6 +46,7 @@
 		ResultSet rs = pstmt.executeQuery();
 		String name="";
 		String phone="";
+		
 		while (rs.next()) {
 			name = rs.getString("name");
 			phone = rs.getString("phone");
